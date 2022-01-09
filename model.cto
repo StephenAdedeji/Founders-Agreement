@@ -1,0 +1,102 @@
+namespace org.example.mytemplate
+
+import org.accordproject.contract.* from https://models.accordproject.org/accordproject/contract.cto
+import org.accordproject.runtime.* from https://models.accordproject.org/accordproject/runtime.cto
+
+transaction MyRequest extends Request {
+  o String input
+}
+
+transaction MyResponse extends Response {
+  o String output
+}
+
+/**
+ * The model for the contract
+ */
+asset MyContract extends Contract {
+  /**
+   * The name for the contract
+   */
+   o String companyname
+   o String founder1
+   o String founder2
+   o String founder3
+   o DateTime date
+   o String founder1address
+   o String founder2address
+   o String founder3address
+   o String companyname
+   o String companyrcno
+   o String companyaddress
+   o DateTime dateofincorporation
+   o Integer sharecapitalofcompany
+   o Integer sharecapitalinwords
+   o Integer numberofshares
+   o String nominalvalueofshares
+   o String nominalvalueofsharesinwords
+   o String founder1totalshares
+   o String percentage share of founder1
+   o String founder2totalshares
+   o String percentage share of founder2
+   o String founder3totalshares
+   o String percentage share of founder3
+   o String founder1email
+   o String founder2email
+   o String founder3email
+   o String director1
+   o String director2
+   o String director3
+   o String minimumnoofdirectors
+   o String minimumnoofdirectorsinwords
+   o String chairman
+   o String quorumofboard
+   o String quorumofboardinwords
+   o String quorumofshareholdersmeeting
+   o String quorumofshareholdersmeetinginwords
+   o String endoffirstvestingperiod
+   o String f1sharesyr1
+   o String f1sharesyr1inwords
+   o String f1sharesyr2
+   o String f1sharesyr2inwords
+   o String f1sharesyr3
+   o String f1sharesyr3inwords
+   o String f1sharesyr4
+   o String f1sharesyr4inwords
+   o String f1sharesyr4
+   o String f1sharesyr4inwords
+   o String f2sharesyr1
+   o String f2sharesyr1inwords
+   o String f2sharesyr2
+   o String f2sharesyr2inwords
+   o String f2sharesyr3
+   o String f2sharesyr3inwords
+   o String f2sharesyr4
+   o String f2sharesyr4inwords
+   o String f3sharesyr1
+   o String f3sharesyr1inwords
+   o String f3sharesyr2
+   o String f3sharesyr2inwords
+   o String f3sharesyr3
+   o String f3sharesyr3inwords
+   o String f3sharesyr4
+   o String f3sharesyr4inwords
+   o String yr1
+   o String yr2
+   o String yr3
+   o String yr4
+   o String vestingperformancescore1
+   o String vestingperformancescore2
+   o String vestingperformancescore3
+   o String vestingperformancescore4
+   o String founder1totalshares
+   o String founder2totalshares
+   o String founder3totalshares
+   o String founder1signature
+   o date founder1datesigned
+   o String founder2signature
+   o date founder2datesigned
+   o String founder3signature
+   o date founder3datesigned
+
+   
